@@ -2,14 +2,29 @@
 
 ## Setup Instructions
 
-### Method 1: Using pip
+### Open a terminal in VS Code (Ctrl + `) and run:
+```bash
+python -m venv .venv
+```
+
+### Activate the Virtual Environment
+```bash
+.venv\Scripts\activate
+```
+
+### Anyone else (or you later) can install them using:
 ```bash
 pip install -r requirements.txt
 ```
 
-### Method 2: Manual installation
+### You can save the installed libraries to your project by
 ```bash
-pip install numpy pandas scikit-learn matplotlib seaborn nltk wordcloud
+pip freeze > requirements.txt
+```
+
+### run streamlit app
+```bash
+streamlit run app.py
 ```
 
 ### NLTK Data Download
