@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/d6f68210-9039-48b3-a46f-3caf03a560ed/resourceGroups/appsvc_linux_eastus/providers/Microsoft.Web/sites/sms-spam-classifier",
+  "appService.deploySubpath": "."
+}
